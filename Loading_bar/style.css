@@ -1,0 +1,26 @@
+body {
+  position: absolute;
+}
+
+[data-widget='loading'] {
+  height: 20px;
+  width: 200px;
+  border: 1px solid black;
+}
+
+[data-widget='load-progress'] {
+  animation: 10s loading;
+  height: 20px;
+  float: left;
+}
+
+[data-widget="progress-percent"] {
+  height: 20px;
+  position: absolute;
+}
+
+@keyframes loading {
+  from {
+    width: 0px;
+  }
+}
