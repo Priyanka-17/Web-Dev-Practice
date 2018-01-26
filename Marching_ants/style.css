@@ -1,0 +1,11 @@
+.ant-colony {
+  position: relative;
+}
+
+.ant {
+  height: 5px;
+  width: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  position: absolute;
+}
