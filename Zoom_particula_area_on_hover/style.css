@@ -1,0 +1,23 @@
+html, body {
+  height: 100%;
+}
+
+img {
+  display: block;
+  height: 30%;
+  width: 30%;
+}
+
+.zoom {
+  display: none;
+  height: 100%;
+  width: 100%;
+  background-image: url('https://www.w3schools.com/howto/img_lights.jpg');
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: -1;
+}
+
+.shown {
+  display: block;
+}
