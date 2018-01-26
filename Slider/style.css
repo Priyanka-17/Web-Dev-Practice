@@ -1,0 +1,50 @@
+i {
+  display: inline-block; 
+}
+
+.slider {
+  display: inline-block;
+}
+
+.slider-component {
+  width: 90px;
+  background-color: aliceblue;
+  line-height: 50px;
+  text-align: center;
+  display: none;
+  margin: 5px;
+  box-sizing: border-box;
+  border: 0.5px solid black;
+}
+
+.shown {
+  display: inline-block;
+}
+
+.chevron-left::before, .chevron-left::after, .chevron-right::before, .chevron-right::after {
+  content: '';
+  height: 10px;
+  width: 5px;
+  display: block;
+  background-color: black;
+}
+
+.chevron-left::before {
+  transform: rotate(45deg);
+}
+
+.chevron-left::after {
+  transform: rotate(-45deg);
+  position: relative;
+  top: -6px;
+}
+
+.chevron-right::before {
+  transform: rotate(-45deg);
+}
+
+.chevron-right::after {
+  transform: rotate(45deg);
+  position: relative;
+  top: -6px;
+}
